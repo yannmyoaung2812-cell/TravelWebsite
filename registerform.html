@@ -7,29 +7,29 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-blue-200  h-screen flex justify-center items-center">
-    <main class="sm:w-full md:w-1/3 bg-white px-10 py-5 sm:mx-1 md:mx-auto rounded-lg">
+    <main class="w-fulls md:w-1/3 bg-white px-10 py-5 sm:mx-1 md:mx-auto rounded-xl shadow-xl">
         <div class="text-center mb-5">
-            <img src="register.png" class="w-20 h-20 mx-auto"/>
+            <img src="register.png" class="w-16 p-4 bg-blue-200 rounded-2xl mx-auto"/>
             <h1 class="text-4xl font-extrabold">Create Account</h1>
             <p>Join us today! It only takes a minute.</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5 text-left font-bold">
         <div>
-            <p>Full Name</p>
-            <input type="text" placeholder="  John Doe" class="rounded-lg border border-gray-950 w-full">        
+            <label>Full Name</label>
+            <input type="text" placeholder="John Doe" class="rounded-lg border w-full p-2 focus:outline-none focus:ring-2 focus:ring-indigo-800">        
         </div>
         <div>
-            <p>Email Address</p>
-            <input type="email" placeholder="  name@company.com" class="rounded-lg border border-gray-950 w-full">        
+            <label>Email Address</label>
+            <input type="email" placeholder="name@company.com" class="rounded-lg border w-full p-2 focus:outline-none focus:ring-2 focus:ring-indigo-800">        
         </div>
         </div>
         <div class="mb-5 text-left font-bold">
-            <p>Password</p>
-            <input type="password" placeholder="  *******" class="w-full border border-black rounded-lg">
+            <label>Password</label>
+            <input type="password" placeholder="*******" class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-800">
         </div>
         <div class="text-left font-bold mb-5">
-            <p>Confirm Password</p>
-            <input type="password" placeholder="  *******" class="w-full border border-black rounded-lg">
+            <label>Confirm Password</label>
+            <input type="password" placeholder="*******" class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-800">
         </div>
         <div class="flex justify-start gap-2 mb-5 sm:text-xs md:text-base">
             <input type="checkbox">
@@ -39,11 +39,11 @@
             <a class="text-indigo-900">Privacy Policy.</a>
         </div>
         <div class="text-white font-bold text-lg mb-5">
-        <button class="w-full bg-indigo-800 hover:scale-x-105 hover:bg-blue-300 p-3 rounded-lg">Create My Account >></button>
+        <button class="w-full bg-indigo-800 hover:scale-x-105 hover:bg-indigo-500 p-3 rounded-lg">Create My Account >></button>
         </div>
         <div class="flex justify-center gap-3">
             <p>Already have an account?</p>
-            <a href="#" class="text-indigo-900">Sign in here</a>
+            <a href="login.html" class="text-indigo-900">Sign in here</a>
         </div>
     </main>
 </body>
